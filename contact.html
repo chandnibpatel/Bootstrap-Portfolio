@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
             <div class="col-1">
             </div>
 
-            <div class="col-10 border border-dark">
+            <div class="col-10" id="contents">
                 <div class="row">
                     <div class="col-12 bg-white text-secondary">
                         <nav class="navbar navbar-expand-lg navbar-light p-0 mb-0">
@@ -29,15 +30,15 @@
                             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.html">About</a>
+                                        <a class="btn btn-outline-info" href="index.html" role="button">About</a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                        <a class="btn btn-outline-info" href="portfolio.html" role="button">Portfolio</a>
                                     </li>
                                     
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                                        <button class="btn btn-outline-info" type="button">Contact<span class="sr-only">(current)</span></button>
                                     </li>
                                 </ul>
                             </div>
@@ -46,7 +47,7 @@
                 </div>
 
                 <div class="row p-3 mb-0 text-dark">
-                    <div class="col-12 bg-white pb-0 ">
+                    <div class="col-12 pb-0 " id="details">
                         <div class="page-header">
                             <h1 class="text-left text-info">Contact</h1>
                             <hr>
@@ -60,7 +61,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Email address:</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="chandnibpatel@gmail.com">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
                             <div class="form-group">
@@ -74,7 +75,7 @@
                 </div>
 
 
-                <div class="row p-3 mb-2 bg-secondary  text-white position-sticky">
+                <div class="row p-3 mb-2 bg-secondary  text-white" id="sticky">
                     <div class="col-12">
                         <div class="footer text-center">
                             @copyright
