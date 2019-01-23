@@ -32,12 +32,13 @@ body{
     border: solid;
     border-color: gray;
 }
+.img-thumbnail{
+    width: 100%;
+    height: 2in;
+}
 #sticky{
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
 }
-.img-thumbnail{
-    width: 100%;
-    height: 2in;
-}
+
